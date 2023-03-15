@@ -1,6 +1,6 @@
 node{
     stage 'Checkout Terraform Project'
-        git 'https://github.com/suresh10122018/terraformrepo.git'
+        git 'git@github.com:suresh10122018/FirstRepo.git'
     stage 'INIT'
         bat 'terraform init'
     stage 'SANITY CHECK'
