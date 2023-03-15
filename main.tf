@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket1" {
-	bucket = "suresh-first-bucket-15march"
+	bucket = "aws-first-bucket-15march"
 }
 
 resource "aws_s3_bucket_acl" "example_bucket_acl" {
